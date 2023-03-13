@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'kalolin_abinci.dart';
+import 'kayan_girki.dart';
 
 void main() {
   runApp(const MyAbinci());
@@ -59,15 +60,15 @@ class _MyHomePageState extends State<MyHomePage> {
           itemBuilder: (BuildContext context, int index) {
             return GestureDetector(
               onTap: (){
-                /*
+
                 Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (context) {
-                          //TODO: add return kayan girke page
+                          return KayanGirki(girkegirke: Girkegirke.samfuri[index],);
                         }
                     )
-                );*/
+                );
               },
               child: buildAbiniciCard(Girkegirke.samfuri[index]),
             );
