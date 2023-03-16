@@ -1,6 +1,6 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'kalolin_abinci.dart';
+import 'package:share_plus/share_plus.dart';
 
 class KayanGirki extends StatefulWidget {
   final Girkegirke girkegirke;
@@ -20,6 +20,9 @@ class _KayanGirkiState extends State<KayanGirki>{
 
   @override
   Widget build(BuildContext context){
+    final ButtonStyle styleBtn =
+    ElevatedButton.styleFrom(textStyle: const TextStyle(fontSize: 19.0,), foregroundColor: Colors.black);
+
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.girkegirke.sunanAbinci),
@@ -54,6 +57,19 @@ class _KayanGirkiState extends State<KayanGirki>{
                 ),
             ),
             //TODO: add share button here
+            const SizedBox(height: 32),
+            Builder(
+              builder: (BuildContext context) {
+                return ElevatedButton(
+                  style: styleBtn,
+                  onPressed: () =>{
+                    Share.share('function to be added')
+                  } ,
+                  child: const Text('Aika wa aboki'),
+                );
+              },
+            ),
+
           ]
         )
       ),
