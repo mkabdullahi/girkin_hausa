@@ -85,11 +85,14 @@ class _MyHomePageState extends State<MyHomePage> {
         borderRadius: BorderRadius.circular(9.3)
       ),
       child: Padding(
-        padding: const EdgeInsets.all(15.0),
+        padding: const EdgeInsets.all(11.0),
         child: Column(
           children: <Widget>[
-            Image(image: AssetImage(girkegirke.hotonAbinciUrl)),
-            const SizedBox( height: 13.0),
+            Image(
+                image: ResizeImage(AssetImage(girkegirke.hotonAbinciUrl), width:350, height:300),
+
+            ),
+            const SizedBox( height: 9.0),
             Text(
               girkegirke.sunanAbinci,
               style: const TextStyle(
