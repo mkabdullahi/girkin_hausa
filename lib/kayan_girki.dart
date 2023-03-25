@@ -17,13 +17,38 @@ class KayanGirki extends StatefulWidget {
 }
 
 class _KayanGirkiState extends State<KayanGirki> {
+
   @override
   Widget build(BuildContext context) {
+
     final ButtonStyle styleBtn = ElevatedButton.styleFrom(
         textStyle: const TextStyle(
           fontSize: 19.0,
         ),
-        foregroundColor: Colors.black);
+        foregroundColor: Colors.black
+    );
+
+    _onShared(BuildContext context){
+      final box = context.findRenderObject() as RenderBox?;
+      final kayanHadi = widget.girkegirke.kayanHadi;
+      String sunanHadi = '';
+      String aunawa = '';
+      double nawa = 0;
+      Girkegirke girkegirke = widget.girkegirke;
+
+      Share.shareXFiles(
+        [XFile(girkegirke.hotonAbinciUrl)],
+        text: '${kayanHadi.map((element) =>{
+          nawa = element.gudaNawa,
+          aunawa = element.aunawa,
+          sunanHadi = element.sunanKayanHadi
+
+        } )}',
+        subject: widget.girkegirke.sunanAbinci,
+        sharePositionOrigin: box!.localToGlobal(Offset.zero) & box.size
+      );
+
+    }
 
     return Scaffold(
       appBar: AppBar(
@@ -56,12 +81,14 @@ class _KayanGirkiState extends State<KayanGirki> {
                     ),
                   ),
                   //TODO: add share fucntions here
-                  const SizedBox(height: 32),
+                  const SizedBox(height: 32.0),
                   Builder(
                     builder: (BuildContext context) {
                       return ElevatedButton(
                         style: styleBtn,
-                        onPressed: () => {Share.share('function to be added')},
+                        onPressed: () => {
+                          _onShared(context)
+                        },
                         child: const Text('Aika wa aboki'),
                       );
                     },

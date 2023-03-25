@@ -67,7 +67,7 @@ class Girkegirke {
     ]),
     Girkegirke('Dindi Kolo', 'assets/hotuna/dindi_kolo.jpg', 3, [
       KayanHadi(1, 'Kilo', 'Danyen Dankali'),
-      KayanHadi(0.5, 'Kilo', 'Man Gayada'),
+      KayanHadi(0.5, 'Liter', 'Man Gayada'),
       KayanHadi(3, 'Cokali', 'Yajin Barkono')
     ])
   ];
