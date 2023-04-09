@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: <Widget>[
             Image(
-                image: ResizeImage(AssetImage(girkegirke.hotonAbinciUrl), width:350, height:300),
+                image: ResizeImage(AssetImage(girkegirke.hotonAbinciUrl), width:325, height:295),
 
             ),
             const SizedBox( height: 9.0),

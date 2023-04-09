@@ -60,7 +60,7 @@ class _KayanGirkiState extends State<KayanGirki> {
             child: Column(
                 children: <Widget>[
                   Image(
-                    image: ResizeImage(AssetImage(widget.girkegirke.hotonAbinciUrl), height:455),
+                    image: ResizeImage(AssetImage(widget.girkegirke.hotonAbinciUrl), height:377),
                   ),
                   const SizedBox(height: 9.0),
                   Text(widget.girkegirke.sunanAbinci,
@@ -68,6 +68,14 @@ class _KayanGirkiState extends State<KayanGirki> {
                           fontSize: 21.0,
                           fontFamily: 'Palatino',
                           fontWeight: FontWeight.w700)),
+                  const SizedBox(height: 9.0),
+                  Text('Kayan Hadi:',
+                    style: const TextStyle(
+                      fontSize: 21.0,
+                      fontFamily: 'Palatino',
+                      fontWeight: FontWeight.w600
+                    ),
+                  ),
                   Expanded(
                     child: ListView.builder(
                       padding: const EdgeInsets.all(7.0),
@@ -80,8 +88,8 @@ class _KayanGirkiState extends State<KayanGirki> {
                       },
                     ),
                   ),
-                  //TODO: add share fucntions here
-                  const SizedBox(height: 32.0),
+                  //TODO: add share functions here
+                  /*const SizedBox(height: 32.0),
                   Builder(
                     builder: (BuildContext context) {
                       return ElevatedButton(
@@ -92,7 +100,7 @@ class _KayanGirkiState extends State<KayanGirki> {
                         child: const Text('Aika wa aboki'),
                       );
                     },
-                  ),
+                  ),*/
               ],
             ),
         ),
