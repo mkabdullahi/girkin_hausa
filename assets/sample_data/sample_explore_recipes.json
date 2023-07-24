@@ -1,0 +1,142 @@
+{
+    "recipes": [
+        {
+            "id": "1",
+            "cardType": "card1",
+            "title": "Dan Waken Hajiya Ina",
+            "subtitle": "Zabin Kowa",
+            "backgroundImage": "assets/hotuna/dan_wake_da_kabeji.jpg",
+            "backgroundImageSource": "https://www.foodiesfeed.com/free-food-photo/baker-with-wheat-flour/",
+            "message": "Koyi yadda zakayi danwake mai laushi da dadi.",
+            "authorName": "Kyauta Gidan Rahma",
+            "role": "Shugaban Gidan Girki",
+            "authorImage": "assets/profile_pics/...",
+            "durationInMinutes": 15,
+            "dietType": "🌯Standard",
+            "calories": 136,
+            "tags": ["Carbs", "Dough", "Crunchy", "Yummy","Salty"],
+            "description": "Abinci da akayi daga garin flour, kuka, ruwan kanwa, yajin barkono da man gyada",
+            "source": "Apple Dictionary",
+            "ingredients": [
+                {
+                    "imageUrl": "....jpg",
+                    "title": "Flour",
+                    "source": "...."
+                },
+                {
+                    "imageUrl": "....jpg",
+                    "title": "Garin Kuka",
+                    "source": ",,,,4141/"
+                },
+                {
+                    "imageUrl": "....jpg",
+                    "title": "Yajin Barkono",
+                    "source": ",,,,4141/"
+                },
+                {
+                    "imageUrl": "....jpg",
+                    "title": "Man Gyada",
+                    "source": ",,,,4141/"
+                },
+                {
+                    "imageUrl": "....jpg",
+                    "title": "Ruwan kanwa",
+                    "source": ",,,,4141/"
+                }
+            ],
+            "instructions": [
+                {
+                    "imageUrl": "....jpg",
+                    "description": "Ka zuba flour a cikin kwano ko kwarya.",
+                    "durationInMinutes": 5
+                },
+                {
+                    "imageUrl": "....jpg",
+                    "description": "Sai ka cuda da garin Kuka cokali 2. ",
+                    "durationInMinutes": 5
+                },
+                {
+                    "imageUrl": "....jpg",
+                    "description": "Sai ka zuba ruwan kanwa misalin karamin kofin tea daya(1). ",
+                    "durationInMinutes": 5
+                },
+                {
+                    "imageUrl": "....jpg",
+                    "description": "Sa anan ka gauraya har sai yazama ruwa ruwa. ",
+                    "durationInMinutes": 5
+                },
+                {
+                    "imageUrl": "....jpg",
+                    "description": "Da karshe sai ka jefa kulin dan waken a cikin tafa shashen ruwan zafi\n. Sai ka tsame dan waken a bayan minti 15.",
+                    "durationInMinutes": 5
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "cardType": "card2",
+            "title": "Kunun Ayaba da Madara",
+            "subtitle": "Smoothies",
+            "backgroundImage": "assets/magazine_pics/card_smoothie.png",
+            "backgroundImageSource": "https://www.foodiesfeed.com/free-food-photo/peanut-butter-and-banana-smoothie/",
+            "message": "Dan dano mai inganci, Yawu abaka, Waiyo dadi!",
+            "authorName": "Dan Umma",
+            "role": "Smoothie Master",
+            "profileImage": "assets/profile_pics/....jpeg",
+            "durationInMinutes": 10,
+            "dietType": "Standard",
+            "calories": 136,
+            "tags": ["Abin Marmari", "Nuts", "Smooth", "Kayan kara jini a jika"],
+            "description": "Kindirmon madara da ayaba a nike.",
+            "source": "Apple Dictionary",
+            "ingredients": [
+                {
+                    "imageUrl": "...png",
+                    "title": "Kindir mon madara ko garin madara",
+                    "source": "...."
+                },
+                {
+                    "imageUrl": "....png",
+                    "title": "Gudajin Ayaba 2",
+                    "source": "..."
+                }
+            ],
+            "instructions": [
+                {
+                    "imageUrl": "food_banana.jpg",
+                    "description": "Ka bare Ayaban, sai ka yanka shi gida 2 ka sa a blender.",
+                    "durationInMinutes": 1
+                },
+                {
+                    "imageUrl": "",
+                    "description": "Sa anan sai ka zuba kofi 2 na ruwan madara. Ya danganda da yawan da ka kaso, zaka iya zuba sama da kofi 2.",
+                    "durationInMinutes": 5
+                },
+                {
+                    "imageUrl": "",
+                    "description": "Daga karshe zaka kuna blender ka burge Ayaban da madara har sai yayi lis.",
+                    "durationInMinutes": 5
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "cardType": "card3",
+            "title": "Abinci Masu Tashe",
+            "subtitle": "",
+            "backgroundImage": "assets/magazine_pics/card_carrot.png",
+            "backgroundImageSource": "https://www.foodiesfeed.com/free-food-photo/fresh-carrots-from-a-market/",
+            "message": "Abubuwan da jama`a kai cece kuce a yau.",
+            "chef": "",
+            "role": "",
+            "durationInMinutes": null,
+            "dietType": null,
+            "calories": null,
+            "tags": ["Healthy", "Vegan", "Carrots", "Greens", "Wheat", "Pescetarian", "Mint", "Lemongrass", "Salad", "Water"],
+            "description": null,
+            "source": null,
+            "ingredients": null,
+            "instructions": null
+        }
+    ]
+}
