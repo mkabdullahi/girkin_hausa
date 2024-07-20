@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.muhammad.kabir.girkin_hausa">
     <application
-        android:label="girkin_hausa"
+        android:label="Girkin Hausa"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
